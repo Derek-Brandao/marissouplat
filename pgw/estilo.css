@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    height: 100%;
+}
+
+#fazendo {
+    background-image: url("./img/fundo1.jpg");
+}
+
+#fazer {
+    background-image: url("./img/fundo2.png");
+}
+
+#fiz {
+    background-image: url("./img/fundo4.jpg");
+}
+
+#fazfaz {
+    background-image: url("./img/fundo2.png");
+}
+
+#farei {
+    background-image: url("./img/fundo1.jpg");
+}
+
+body{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-position: 50% 20%;
+    color: white;
+    font-family: arial;    
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.escopo {
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.safe-top {
+    height: 5%;
+}
+
+.safe-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5%;
+}
+
+input{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border:1px solid rgba(0, 255, 13, 0.445);
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    outline: none;
+}
+
+div#corpo-form{
+    /*background-color: red;*/
+    width: 420px;
+    margin: 130px auto 0px auto;
+}
+div#corpo-form-Cad
+{
+    /*background-color: red;*/
+    width: 420px;
+    margin: 80px auto 0px auto;
+}
+div#corpo-form h1, div#corpo-form-Cad h1{
+    text-align: center;
+    padding: 20px;
+}
+
+a{
+    color:white;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+input[type=submit]{
+    background-color: rgba(0, 255, 13, 0.445);
+    border: none;
+    cursor: pointer;
+}
+   
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #000;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: #000;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: #000;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #000;
+}
+
+div#msg-sucesso{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(50,205,50,.3);
+    border: 1px solid rgb(34,139,34);
+}
+
+div.msg-erro{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(0, 255, 13, 0.445);
+    border: 1px solid rgb(165,42,42);
+    
+}
+
+.container {
+    background-color: blueviolet;
+}

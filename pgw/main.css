@@ -1,0 +1,87 @@
+.dezoito {
+    background-image: url("img2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#index {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#wc {
+    color: black;
+    padding: 26px;
+}
+div {
+    display: block;
+}
+#cb {
+    height: 100px;
+    width: 100%;
+    opacity: 0.6;
+}
+#op {
+    position: relative;
+    margin: 0px;
+    height: 280px;
+    width: 320px;
+    background-color: black;
+    opacity: 0.6;
+    color: black;
+    text-decoration-color: black;
+}
+#adult {
+    size: 100%;
+    background-image: url("img1.jpg");
+    background-size: cover;
+    background-repeat:repeat;
+}
+#divmain {
+    width: 95%;
+    height: 890px;
+    background-color: black
+}
+.bv {
+    padding: 5px;
+    color: red;
+    font-size: 25px;
+}
+.bvv {
+    padding: 10px;
+    color: red;
+    font-size: 40px;
+}
+#wc {
+    color: black;
+
+}
+#tableindex {
+    margin-left: 20px;
+}
+#black {
+    size: 100%;
+    background-image: url("black.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#princi {
+    size: 100%;
+    background-image: url("img2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#dados {
+    margin-bottom: 300px;
+    height: 300px;
+    width: 60%;
+    background-color: black;
+}
+#form {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+#result {
+    width: 200px;
+    height: 200px;
+}
+
