@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 1700px">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Adult Page</title>
+</head>
+<body id="adult" onload="confirma()" style="overflow-y:hidden; height: 100%;">
+    <center>
+        <div id="divmain" style="position: relative; bottom: -43px; height: 800px; width: 800px; border-radius: 25px;">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <h1 class="bvv">Bem vindo.</h1>
+        <h3 class="bv">Essa página é recomendada para maiores de 18 anos apenas.</h3>
+        <h3 class="bv">Você é maior de 18 anos?</h3>
+        <br/>
+
+        <button type="button" onclick="maiordeidade()" id="s" style="border-style: solid;border-color: red;color: black;background-color: yellow;width: 50px; height: 50px"><big>SIM</big></button>&nbsp;&nbsp;&nbsp;
+        <button type="button" onclick="menordeidade()" id="n" style="border-style: solid;border-color: red;color: white;background-color: black;width: 50px; height: 50px"><big>NÃO</big></button>
+        </div>
+    </center>
+    <input style="background-color: black; color:white; font-weight: bolder; border-radius: 20px; font-size: larger;border-style: solid;border-color: yellow;position:relative; left: 600px; bottom:20px"type="button" value="Voltar ao Menu" id="btt" onclick="irpara()">
+    <script>
+        function confirma(){
+            confirm("AVISO IMPORTANTE:");
+        }
+        function maiordeidade(){
+            var s = document.getElementById("s");
+            if(s){
+                window.location.pathname = '/pgw/principal.php';
+            }
+        }
+        function menordeidade(){
+            var n = document.getElementById("s");
+            if(n){
+                window.location = 'https://www.smartkids.com.br';
+            }
+        }
+        function irpara(){
+            window.location.pathname = '/pgw/index.html';
+        }
+    </script>
+</body>
+</html>
